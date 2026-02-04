@@ -1,2 +1,17 @@
 # ecohidro
-Este es un proyecto con el cual podremos solucionar el problema de las personas sin acceso a el servicio de electricidad.
+
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" href="style.css">
+        </head>
+          <body>
+              <h1></h1>
+                  <h3></h3>
+                      <p></p>
+                          <p></p>
+                              <p></p>
+                                  <p></p>
+                                      <p></p>
+                                        </body>
+                                        </html>
