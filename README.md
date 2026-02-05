@@ -1,17 +1,2 @@
-# ecohidro
-
-<!DOCTYPE html>
-<html>
-  <head>
-      <link rel="stylesheet" href="style.css">
-        </head>
-          <body>
-              <h1></h1>
-                  <h3></h3>
-                      <p></p>
-                          <p></p>
-                              <p></p>
-                                  <p></p>
-                                      <p></p>
-                                        </body>
-                                        </html>
+#ecohidro
+Éste es un proyecto con el cual daremos a conocer un prototipo que podría solucionar el problema de las personas que no tienen acceso a la energía eléctrica.
