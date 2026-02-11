@@ -1,2 +1,2 @@
 #ecohidro
-Éste es un proyecto con el cual daremos a conocer un prototipo que podría solucionar el problema de las personas que no tienen acceso a la energía eléctrica.
+Éste proyecto tiene como objetivo solucionar el problema de las personas que no tienen acceso a energía eléctrica, ésto los lograremos gracias a un generador prototipo que funciona con agua, el cual daremos a conocer a través de ésta página web.
