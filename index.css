@@ -1,0 +1,23 @@
+/* styles specific to index.html */
+#vertical-title {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 2rem;
+  font-weight: bold;
+  z-index: 1030;
+  padding: 0.5rem;
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+}
+
+/* ensure navbar toggler is visible */
+.navbar-toggler {
+  background-color: rgba(0,0,0,0.5);
+}
+.navbar-toggler-icon {
+  filter: invert(1);
+}
