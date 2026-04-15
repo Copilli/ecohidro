@@ -10,12 +10,91 @@
   font-weight: bold;
   z-index: 1030;
   padding: 0.5rem;
-  background: rgba(0,0,0,0.5);
+  background: transparent;
   color: #fff;
 }
 
 body {
   margin-left: 4rem;
+  background: url("./imagenes/Captura\ de\ pantalla\ 2026-03-25\ 090622.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #000;
+}
+
+/* general text styles - transparent background and black text */
+* {
+  background-color: transparent;
+  color: #000;
+}
+
+/* exception for vertical title - keep white */
+#vertical-title {
+  color: #fff !important;
+}
+
+/* card styling with white translucid background - only for col-lg-4 */
+.col-lg-4 {
+  background-color: rgba(255, 255, 255, 0.85) !important;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* remove underlines from text inside cards */
+.col-lg-4 p, .col-lg-4 h2, .col-lg-4 a, .col-lg-4 font {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+/* globally remove background from all font elements */
+font {
+  background: transparent !important;
+  background-color: transparent !important;
+  color: #000 !important;
+}
+
+/* navbar styling */
+.navbar {
+  background-color: rgba(0,0,0,0.8) !important;
+}
+
+.nav-link {
+  color: #fff !important;
+  background: transparent !important;
+}
+
+.navbar-dark .navbar-brand {
+  color: #fff !important;
+  background: transparent !important;
+}
+
+/* heading and text styling */
+h1, h2, h3, h4, h5, h6 {
+  color: #000 !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+p {
+  font-size: 1.5rem;
+  opacity: 1;
+  color: #000 !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+span, a {
+  color: #000 !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
 }
 
 /* ensure navbar toggler is visible */

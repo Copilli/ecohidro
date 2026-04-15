@@ -7,3 +7,35 @@ img {
   border: 3px solid #ddd;
   margin-bottom: 1rem;
 }
+
+/* remove underlines and white decorations from text */
+p, h2, font, span, a {
+  text-decoration: none !important;
+  border: none !important;
+  border-bottom: none !important;
+  text-shadow: none !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  color: #000 !important;
+  line-height: normal !important;
+}
+
+/* specifically target font elements */
+font {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #000 !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+}
+
+/* ensure paragraphs have no background */
+p {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #000 !important;
+}
