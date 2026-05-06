@@ -16,7 +16,7 @@
 
 body {
   margin-left: 4rem;
-  background: url("./imagenes/Captura\ de\ pantalla\ 2026-03-25\ 090622.png");
+  background: #ffffff;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -81,13 +81,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
   opacity: 1;
-  color: #000 !important;
+  color: #333 !important;
   background: transparent !important;
   background-color: transparent !important;
   background-image: none !important;
   box-shadow: none !important;
+  margin: 1rem 0;
+  padding: 0 1rem;
 }
 
 span, a {
@@ -103,4 +106,15 @@ span, a {
 }
 .navbar-toggler-icon {
   filter: invert(1);
+}
+
+/* featured image styling with contrast */
+.featured-image {
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border: 3px solid #4CAF50;
+  padding: 8px;
+  background-color: #f0f8f0;
+  max-width: 100%;
+  height: auto;
 }
