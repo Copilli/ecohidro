@@ -108,13 +108,4 @@ span, a {
   filter: invert(1);
 }
 
-/* featured image styling with contrast */
-.featured-image {
-  border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-  border: 3px solid #4CAF50;
-  padding: 8px;
-  background-color: #f0f8f0;
-  max-width: 100%;
-  height: auto;
-}
+/* featured image styling - removed to avoid conflicts */
