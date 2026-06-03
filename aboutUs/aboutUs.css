@@ -1,39 +1,80 @@
-/* Images styling - circular and small */
-.about-profile-image {
+/* Polished presentation for About Us page (no HTML changes) */
+:root{
+  --card-bg: #ffffff;
+  --card-border: rgba(0,0,0,0.06);
+  --muted: #555;
+  --accent: #0b5ed7;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  color: #222;
+}
+
+.container {
+  max-width: 1100px;
+}
+
+.row {
+  gap: 1.25rem;
+}
+
+.col-lg-4 {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+  padding: 1.25rem 1rem;
+  box-shadow: 0 6px 18px rgba(16,24,40,0.06);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+
+.col-lg-4:hover{
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(16,24,40,0.09);
+}
+
+.col-lg-4 img.about-profile-image {
   width: 60px !important;
   height: 60px !important;
   border-radius: 50% !important;
   object-fit: cover !important;
+  margin-bottom: 0.75rem !important;
+  border: 2px solid rgba(11,94,215,0.12) !important;
 }
 
-/* remove underlines and white decorations from text */
-p, h2, font, span, a {
-  text-decoration: none !important;
-  border: none !important;
-  border-bottom: none !important;
-  text-shadow: none !important;
-  background: transparent !important;
-  background-color: transparent !important;
-  background-image: none !important;
-  box-shadow: none !important;
-  color: #000 !important;
-  line-height: normal !important;
+.col-lg-4 h2 {
+  font-size: 1.05rem;
+  margin: 0.3rem 0 0.45rem;
+  font-weight: 600;
+  color: #0b2540;
 }
 
-/* specifically target font elements */
-font {
-  background: transparent !important;
-  background-color: transparent !important;
-  background-image: none !important;
-  color: #000 !important;
-  text-decoration: none !important;
-  box-shadow: none !important;
+.col-lg-4 p {
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin: 0;
+  line-height: 1.45;
 }
 
-/* ensure paragraphs have no background */
-p {
-  background: transparent !important;
-  background-color: transparent !important;
-  background-image: none !important;
-  color: #000 !important;
+/* tidy up legacy font tags and force neutrality inside cards */
+.col-lg-4 font, .col-lg-4 span, .col-lg-4 a {
+  all: unset;
+  display: inline;
 }
+
+/* responsive spacing */
+@media (max-width: 767px){
+  .col-lg-4{padding:1rem;}
+  .container{padding:0 1rem}
+}
+
+/* small helper for page title (keeps structure unchanged) */
+.container::before{
+  content: '';
+}
+
+/* end styles */
