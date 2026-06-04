@@ -108,7 +108,14 @@ span, a {
   filter: invert(1);
 }
 
-/* featured image styling - removed to avoid conflicts */
+/* featured image styling - applies to all pages */
+.featured-image {
+  max-width: 320px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 
 /* =========================== */
 /* Global polished theme (applies site-wide) */
